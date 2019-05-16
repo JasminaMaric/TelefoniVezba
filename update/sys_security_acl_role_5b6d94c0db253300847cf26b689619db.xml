@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-16 06:30:03</sys_created_on>
+        <sys_id>5b6d94c0db253300847cf26b689619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_355769_telefoni_telefoni.x_355769_telefoni.telefoni_user</sys_name>
+        <sys_package display_value="Telefoni" source="x_355769_telefoni">5bbc1840db253300847cf26b68961998</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Telefoni">5bbc1840db253300847cf26b68961998</sys_scope>
+        <sys_security_acl display_value="x_355769_telefoni_telefoni">136d94c0db253300847cf26b689619c0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5b6d94c0db253300847cf26b689619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 06:30:03</sys_updated_on>
+        <sys_user_role display_value="x_355769_telefoni.telefoni_user" name="x_355769_telefoni.telefoni_user">876dd040db253300847cf26b6896199b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

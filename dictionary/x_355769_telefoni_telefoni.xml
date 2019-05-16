@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Telefoni" max_length="40" name="x_355769_telefoni_telefoni" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Marka telefona" mandatory="true" max_length="100" name="u_marka_telefona" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ne" label="Na stanju" mandatory="true" max_length="40" name="u_na_stanju" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Da" sequence="0" value="da"/>
+                <element inactive_on_update="false" label="Ne" sequence="1" value="ne"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="samsung" label="Proizvodjac telefona" mandatory="true" max_length="40" name="u_proizvodjac_telefona" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Samsung" sequence="0" value="samsung"/>
+                <element inactive_on_update="false" label="Lenovo" sequence="1" value="lenovo"/>
+                <element inactive_on_update="false" label="Apple" sequence="2" value="apple"/>
+                <element inactive_on_update="false" label="Huawei" sequence="3" value="huawei"/>
+                <element inactive_on_update="false" label="Alcatel" sequence="4" value="alcatel"/>
+                <element inactive_on_update="false" label="Motorola" sequence="5" value="motorola"/>
+                <element inactive_on_update="false" label="Nokia" sequence="6" value="nokia"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="SBB" label="Provajderi" mandatory="true" max_length="40" name="u_provajderi" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1. Serbia Broadband" sequence="0" value="SBB"/>
+                <element inactive_on_update="false" label="2. KBC.net" sequence="1" value="KBC"/>
+                <element inactive_on_update="false" label="3. Beotel.net" sequence="2" value="BEOTEL"/>
+                <element inactive_on_update="false" label="4. Orion" sequence="3" value="ORION"/>
+                <element inactive_on_update="false" label="5. Telekom/mts" sequence="4" value="MTS"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Marka telefona" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element default="1" label="Trenutno na stanju" mandatory="true" max_length="40" name="u_trenutno_na_stanju" type="integer"/>
+    </element>
+</database>
